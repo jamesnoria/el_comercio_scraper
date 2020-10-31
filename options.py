@@ -37,4 +37,3 @@ class UserOptions:
             for i in range(100):
                 time.sleep(0.02)
                 bar.next()
-        print(f'¡LISTO!, puedes revisar el archivo: "{self.filename_generator()}" dentro de la carpeta: "csv_files"')
