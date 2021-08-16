@@ -4,14 +4,9 @@ from bs4 import BeautifulSoup
 
 
 class Scraper:
-    """
-        Clase para ejecutar el scraper del periodico.
+    """ Local package que permite obtener las etiquetas(html),
+    titulares, descripciones y links de las noticias en el sitio """
 
-        Attributes:
-            url (str): url de ELCOMERCIO.
-            news_number (int): cantidad de noticias a leer.
-
-    """
     def __init__(self, url, news_number):
         self.url = url
         self.news_number = news_number
@@ -78,7 +73,6 @@ class Scraper:
 
         Return:
             Lista con links o urls de referencia.
-
         """
         links = []
         try:

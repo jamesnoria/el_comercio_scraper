@@ -18,7 +18,8 @@ class UserOptions:
     def greeting(self):
         """ Saludo inicial """
         print(' *'*29)
-        print(f'Bienvenid@ {self.name.title()} a las noticias sobre el COVID-19'.center(60))
+        print(
+            f'Bienvenid@ {self.name.title()} a las noticias sobre el COVID-19'.center(60))
         print(' *'*29)
         print('Haré un archivo .csv para ti con la información más importante')
 

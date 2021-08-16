@@ -17,7 +17,7 @@
 
 ## Descripción:
 
-- Este proyecto personal realiza un scraper de la página web del diario peruano **'El Comercio'** con un enfoque únicamente en el tema (topic) del coronavirus. El resultado final es un archivo `.csv` con tres columnas y su debida información respectivamente: Título, Descripción y link o enlace de referencia.
+- Este proyecto personal realiza un scraper de la página web del diario peruano **'El Comercio'** con un enfoque únicamente en el tema (topic) del coronavirus. El resultado final es un archivo `.csv` o `.json` con la debida información Título, Descripción y link o enlace de referencia (respectivamente).
 
 ## Pre-requisitos:
 
@@ -67,10 +67,8 @@
 ## To-Do:
 (*siéntase libre de colaborar*)
 
-- ~~Condicionar el script a la respuesta del servidor (requests).~~
-- ~~Probar programación concurrente para mejorar velocidad de respuesta.~~
-- Incluir otros temas o enfoques del diario.
-- Hacer 'refactoring' un poco más.
+- See Issues.
+- Raise a new issue for any suggestion.
 
 ## Licencia:
 
